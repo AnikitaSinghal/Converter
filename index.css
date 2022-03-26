@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+#select1{
+    height: 5vh;
+    width: 25.5vw;
+    
+    border: 2.7px solid black;
+    border-radius: 3px;
+    
+  }
+  #select2{
+    height: 5vh;
+    width: 25.5vw;
+    
+    border: 2.7px solid black;
+    border-radius: 3px;
+  }
+#input1{
+    height: 5vh;
+    width: 25.5vw;
+    
+    border: 2.7px solid black;
+    border-radius: 3px;
+}
+#input2{
+    height: 5vh;
+    width: 25.5vw;
+    
+    border: 2.7px solid black;
+    border-radius: 3px;
+}
+#heading1{
+    font: size xx-large;
+    font-style: italic ;
+    background-color: rgb(50, 182, 205);
+    text-align: center;
+    padding: 30px;
+    color:whitesmoke;
+    background-image: url('https://wallpapercave.com/wp/wp2597345.jpg');
+    
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.sidebar{
+    flex: 50%;
+    padding: 30px;
+    width: 270px;
+    height: 400px;
+    background-color:beige;
+    
+}
+.context{
+    flex: 50%;
+    padding: 30px;
+    width: 270px;
+    height: 400px;
+    background-color:bisque;
+    
+}
+.footer{
+    text-align: center;
+    background-color: peru;
+    padding: 30px;
+    margin-top: 20px;
+    background-image: url('https://tse1.mm.bing.net/th?id=OIP.ntKCGOq8cKJtfJp2c1ctiAHaCt&pid=Api&P=0&w=483&h=177https://tse4.mm.bing.net/th?id=OIP.gcwXfLRmO9chGlJVDSNEKwHaCe&pid=Api&P=0&w=528&h=176');
+}
+#footer1{
+    text-align: center;
+    background-color:antiquewhite;
+    padding: 30px;
+    margin-top: 20px;
+    font: size xx-large;
+    font-style:normal bold ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#btn1{
+    height:50px;
+    width: 80px;
+    border-radius: 15px;
+    font-size: large;
+}
+#btn2{
+    height:50px;
+    width: 80px;
+    border-radius: 15px;
+    font-size: large;
+    justify-content: space-evenly;
+}
+
+@media screen {
+    .sidebar,.context{
+        flex-direction: column;
+    }
+    
